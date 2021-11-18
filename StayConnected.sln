@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StayConnected", "StayConnected\StayConnected.csproj", "{4D6BDC83-6EFC-4E49-8217-D180676DA155}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{B0B687F5-1967-48E5-9F49-E9E1D38BFC27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeepingConnected", "KeepingConnected\KeepingConnected.csproj", "{4CD6633F-0ECF-4255-ACE3-A2278DB5F246}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4D6BDC83-6EFC-4E49-8217-D180676DA155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D6BDC83-6EFC-4E49-8217-D180676DA155}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D6BDC83-6EFC-4E49-8217-D180676DA155}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D6BDC83-6EFC-4E49-8217-D180676DA155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0B687F5-1967-48E5-9F49-E9E1D38BFC27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0B687F5-1967-48E5-9F49-E9E1D38BFC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0B687F5-1967-48E5-9F49-E9E1D38BFC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0B687F5-1967-48E5-9F49-E9E1D38BFC27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD6633F-0ECF-4255-ACE3-A2278DB5F246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD6633F-0ECF-4255-ACE3-A2278DB5F246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD6633F-0ECF-4255-ACE3-A2278DB5F246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD6633F-0ECF-4255-ACE3-A2278DB5F246}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
